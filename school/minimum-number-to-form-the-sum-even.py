@@ -31,3 +31,11 @@ Output:
 1
 
 '''
+
+testcase = int(input())
+
+for i in range(testcase):
+  number = int(input())
+  result = sum(list(map(int,input().split())))
+  print("1") if result % 2 else print("2")
+  
